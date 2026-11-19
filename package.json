@@ -19,7 +19,9 @@
     "test:watch": "vitest",
     "e2e": "playwright test --trace off",
     "e2e:update": "playwright test --trace off --update-snapshots",
-    "ci": "npm run typecheck && npm run lint && npm run format:check && npm run test && npm run build"
+    "ci": "npm run typecheck && npm run lint && npm run format:check && npm run test && npm run build",
+    "fetch-dem": "tsx scripts/fetch-dem.ts",
+    "build-tiles": "/usr/bin/env python3.12 scripts/pipeline/build_tiles.py"
   },
   "dependencies": {
     "three": "0.187.0"

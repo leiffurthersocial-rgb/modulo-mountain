@@ -1,0 +1,355 @@
+{
+  "$comment": "Mountain presets. Adding a mountain = adding an entry here + running the data scripts; no code changes. Positions are WGS84 lat/lon; alt is metres above sea level ('asl') or above ground ('agl'). heading: degrees clockwise from north; pitch: degrees, positive = up.",
+  "default": "matterhorn",
+  "presets": [
+    {
+      "id": "matterhorn",
+      "name": "Matterhorn",
+      "region": "Valais (CH) / Aosta Valley (IT)",
+      "origin": {
+        "lat": 45.97639,
+        "lon": 7.65861
+      },
+      "summit": {
+        "name": "Matterhorn",
+        "lat": 45.97639,
+        "lon": 7.65861,
+        "elevationM": 4478,
+        "datum": "LN02 (Swiss national heights)",
+        "toleranceM": 1.5,
+        "searchRadiusM": 15,
+        "reference": "https://en.wikipedia.org/wiki/Matterhorn"
+      },
+      "extent": {
+        "rootSizeM": 65536,
+        "coreHalfSizeM": 8192
+      },
+      "sources": [
+        {
+          "id": "swissalti3d",
+          "region": "core",
+          "priority": 1,
+          "maxLevel": 7,
+          "featherM": 150
+        },
+        {
+          "id": "swissaltiregio",
+          "region": "all",
+          "priority": 2,
+          "maxLevel": 5
+        }
+      ],
+      "farFieldMaxLevel": 4,
+      "tiles": {
+        "datasetVersion": "v1"
+      },
+      "landmarks": [
+        {
+          "id": "summit",
+          "name": "Matterhorn summit",
+          "lat": 45.97639,
+          "lon": 7.65861,
+          "reference": "https://en.wikipedia.org/wiki/Matterhorn"
+        },
+        {
+          "id": "hornli-hut",
+          "name": "Hörnli Hut",
+          "lat": 45.982083,
+          "lon": 7.677083,
+          "elevationM": 3260,
+          "toleranceM": 4,
+          "reference": "https://en.wikipedia.org/wiki/H%C3%B6rnli_Hut"
+        },
+        {
+          "id": "breithorn",
+          "name": "Breithorn",
+          "lat": 45.94111,
+          "lon": 7.74722,
+          "elevationM": 4164,
+          "toleranceM": 5,
+          "searchRadiusM": 60,
+          "reference": "https://en.wikipedia.org/wiki/Breithorn"
+        },
+        {
+          "id": "dent-dherens",
+          "name": "Dent d'Hérens",
+          "lat": 45.9699,
+          "lon": 7.6051,
+          "elevationM": 4171,
+          "toleranceM": 5,
+          "searchRadiusM": 60,
+          "reference": "https://en.wikipedia.org/wiki/Matterhorn (location map)"
+        },
+        {
+          "id": "carrel-hut",
+          "name": "Rifugio Jean-Antoine Carrel",
+          "lat": 45.9727,
+          "lon": 7.6477,
+          "reference": "https://en.wikipedia.org/wiki/Matterhorn (location map)"
+        },
+        {
+          "id": "zermatt",
+          "name": "Zermatt",
+          "lat": 46.017,
+          "lon": 7.75,
+          "reference": "https://en.wikipedia.org/wiki/Zermatt"
+        }
+      ],
+      "bookmarks": [
+        {
+          "id": "overview",
+          "name": "Overview",
+          "lat": 45.925,
+          "lon": 7.735,
+          "alt": 7500,
+          "altMode": "asl",
+          "heading": 315,
+          "pitch": -18
+        },
+        {
+          "id": "summit",
+          "name": "Summit",
+          "lat": 45.97639,
+          "lon": 7.65861,
+          "alt": 25,
+          "altMode": "agl",
+          "heading": 45,
+          "pitch": -12
+        },
+        {
+          "id": "summit-close",
+          "name": "Summit (close)",
+          "lat": 45.97641,
+          "lon": 7.65855,
+          "alt": 3,
+          "altMode": "agl",
+          "heading": 90,
+          "pitch": -25
+        },
+        {
+          "id": "hornli-hut",
+          "name": "Hörnli Hut",
+          "lat": 45.982083,
+          "lon": 7.677083,
+          "alt": 25,
+          "altMode": "agl",
+          "heading": 245,
+          "pitch": 14
+        },
+        {
+          "id": "hornli-ridge",
+          "name": "Hörnli ridge",
+          "lat": 45.97924,
+          "lon": 7.66785,
+          "alt": 40,
+          "altMode": "agl",
+          "heading": 245,
+          "pitch": 16
+        },
+        {
+          "id": "zermatt",
+          "name": "Zermatt (valley floor)",
+          "lat": 46.017,
+          "lon": 7.75,
+          "alt": 30,
+          "altMode": "agl",
+          "heading": 237,
+          "pitch": 9
+        },
+        {
+          "id": "north-face",
+          "name": "North face viewpoint",
+          "lat": 46.0034,
+          "lon": 7.65861,
+          "alt": 3800,
+          "altMode": "asl",
+          "heading": 180,
+          "pitch": 4
+        },
+        {
+          "id": "glacier",
+          "name": "Zmutt glacier",
+          "lat": 45.985,
+          "lon": 7.625,
+          "alt": 200,
+          "altMode": "agl",
+          "heading": 110,
+          "pitch": 6
+        },
+        {
+          "id": "italian-side",
+          "name": "Italian side (above Breuil-Cervinia)",
+          "lat": 45.94,
+          "lon": 7.635,
+          "alt": 3200,
+          "altMode": "asl",
+          "heading": 20,
+          "pitch": 10
+        },
+        {
+          "id": "far-view",
+          "name": "View from the Breithorn",
+          "lat": 45.94111,
+          "lon": 7.74722,
+          "alt": 20,
+          "altMode": "agl",
+          "heading": 300,
+          "pitch": 2
+        }
+      ]
+    },
+    {
+      "id": "eiger-moench-jungfrau",
+      "name": "Eiger, Mönch & Jungfrau",
+      "region": "Bernese Oberland (CH)",
+      "origin": {
+        "lat": 46.55833,
+        "lon": 7.99722
+      },
+      "summit": {
+        "name": "Jungfrau",
+        "lat": 46.536806,
+        "lon": 7.962639,
+        "elevationM": 4158,
+        "datum": "LN02 (Swiss national heights)",
+        "toleranceM": 3,
+        "searchRadiusM": 40,
+        "reference": "https://en.wikipedia.org/wiki/Jungfrau"
+      },
+      "extent": {
+        "rootSizeM": 65536,
+        "coreHalfSizeM": 8192
+      },
+      "sources": [
+        {
+          "id": "swissalti3d",
+          "region": "core",
+          "priority": 1,
+          "maxLevel": 7,
+          "featherM": 150
+        },
+        {
+          "id": "swissaltiregio",
+          "region": "all",
+          "priority": 2,
+          "maxLevel": 5
+        }
+      ],
+      "farFieldMaxLevel": 4,
+      "tiles": {
+        "datasetVersion": "v1"
+      },
+      "landmarks": [
+        {
+          "id": "eiger",
+          "name": "Eiger",
+          "lat": 46.5775,
+          "lon": 8.00528,
+          "elevationM": 3967,
+          "toleranceM": 5,
+          "searchRadiusM": 60,
+          "reference": "https://en.wikipedia.org/wiki/Eiger"
+        },
+        {
+          "id": "moench",
+          "name": "Mönch",
+          "lat": 46.55833,
+          "lon": 7.99722,
+          "elevationM": 4110,
+          "toleranceM": 5,
+          "searchRadiusM": 60,
+          "reference": "https://en.wikipedia.org/wiki/M%C3%B6nch"
+        },
+        {
+          "id": "jungfrau",
+          "name": "Jungfrau",
+          "lat": 46.536806,
+          "lon": 7.962639,
+          "reference": "https://en.wikipedia.org/wiki/Jungfrau"
+        }
+      ],
+      "bookmarks": [
+        {
+          "id": "overview",
+          "name": "Overview",
+          "lat": 46.62,
+          "lon": 8.04,
+          "alt": 6500,
+          "altMode": "asl",
+          "heading": 210,
+          "pitch": -15
+        },
+        {
+          "id": "summit",
+          "name": "Jungfrau summit",
+          "lat": 46.536806,
+          "lon": 7.962639,
+          "alt": 25,
+          "altMode": "agl",
+          "heading": 60,
+          "pitch": -10
+        }
+      ]
+    },
+    {
+      "id": "everest",
+      "name": "Mount Everest (placeholder, 30 m global data)",
+      "region": "Nepal / China",
+      "origin": {
+        "lat": 27.98833,
+        "lon": 86.92528
+      },
+      "summit": {
+        "name": "Mount Everest",
+        "lat": 27.98833,
+        "lon": 86.92528,
+        "elevationM": 8848.86,
+        "datum": "published height (2020 survey); data is Copernicus GLO-30 on EGM2008",
+        "toleranceM": 150,
+        "searchRadiusM": 100,
+        "reference": "https://en.wikipedia.org/wiki/Mount_Everest",
+        "note": "Copernicus GLO-30 reads about 8736 m here and its highest sample lies ~95 m from the published summit position: a 30 m grid cuts off and smooths the peak.",
+        "positionToleranceM": 120
+      },
+      "extent": {
+        "rootSizeM": 65536,
+        "coreHalfSizeM": 8192
+      },
+      "sources": [
+        {
+          "id": "copernicus-glo30",
+          "region": "all",
+          "priority": 1,
+          "maxLevel": 5
+        }
+      ],
+      "farFieldMaxLevel": 4,
+      "tiles": {
+        "datasetVersion": "v1"
+      },
+      "landmarks": [],
+      "bookmarks": [
+        {
+          "id": "overview",
+          "name": "Overview",
+          "lat": 27.93,
+          "lon": 86.98,
+          "alt": 11000,
+          "altMode": "asl",
+          "heading": 320,
+          "pitch": -15
+        },
+        {
+          "id": "summit",
+          "name": "Summit",
+          "lat": 27.98833,
+          "lon": 86.92528,
+          "alt": 30,
+          "altMode": "agl",
+          "heading": 0,
+          "pitch": -10
+        }
+      ]
+    }
+  ]
+}

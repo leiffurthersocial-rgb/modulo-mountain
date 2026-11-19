@@ -1,0 +1,47 @@
+{
+  "entries": [
+    {
+      "id": "three",
+      "kind": "code",
+      "name": "three.js",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/mrdoob/three.js/blob/dev/LICENSE",
+      "attribution": "three.js © 2010-2026 three.js authors (MIT License)",
+      "url": "https://threejs.org"
+    },
+    {
+      "id": "copernicus-glo30",
+      "kind": "data",
+      "usedBy": ["everest"],
+      "name": "Copernicus DEM GLO-30",
+      "producer": "Airbus Defence and Space GmbH / DLR, provided under COPERNICUS by the European Union and ESA",
+      "license": "Licence for the use of the Copernicus WorldDEM-30",
+      "licenseUrl": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM/resources/license/License-COPDEM-30.pdf",
+      "attribution": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+      "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+      "disclaimer": "The organisations in charge of the Copernicus programme by law or by delegation do not incur any liability for any use of the Copernicus WorldDEM-30"
+    },
+    {
+      "id": "swissalti3d",
+      "kind": "data",
+      "usedBy": ["eiger-moench-jungfrau", "matterhorn"],
+      "name": "swissALTI3D",
+      "producer": "Federal Office of Topography swisstopo",
+      "license": "swisstopo free geodata (OGD) terms of use",
+      "licenseUrl": "https://www.swisstopo.admin.ch/en/terms-of-use-free-geodata-and-geoservices",
+      "attribution": "© swisstopo (swissALTI3D)",
+      "url": "https://www.swisstopo.admin.ch/en/height-model-swissalti3d"
+    },
+    {
+      "id": "swissaltiregio",
+      "kind": "data",
+      "usedBy": ["eiger-moench-jungfrau", "matterhorn"],
+      "name": "swissALTIRegio",
+      "producer": "Federal Office of Topography swisstopo",
+      "license": "swisstopo free geodata (OGD) terms of use, with the source reference prescribed for swissALTIRegio",
+      "licenseUrl": "https://www.swisstopo.admin.ch/en/height-model-swissaltiregio",
+      "attribution": "Bundesamt für Landestopografie swisstopo; Tarquini S., I. Isola, M. Favalli, A. Battistini, G. Dotta (2023). TINITALY, a digital elevation model of Italy with a 10 meters cell size (Version 1.1). Istituto Nazionale di Geofisica e Vulcanologia (INGV). https://doi.org/10.13127/tinitaly/1.1; DGM Österreich, geoland.at; DGM1, Bayerische Vermessungsverwaltung – www.geodaten.bayern.de; DGM1, Baden-Württemberg: LGL, www.lgl-bw.de, dl-de/by-2-0”; RGEAlti, Institut National de l’information géographique et forestière, données originales tétéchargées sur https://geoservices.ign.fr/rgealti#telechargement5m, mise à jour du juillet 2023",
+      "url": "https://www.swisstopo.admin.ch/en/height-model-swissaltiregio"
+    }
+  ]
+}

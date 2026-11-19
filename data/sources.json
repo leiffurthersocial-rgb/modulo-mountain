@@ -1,0 +1,46 @@
+{
+  "swissalti3d": {
+    "name": "swissALTI3D",
+    "producer": "Federal Office of Topography swisstopo",
+    "kind": "DTM",
+    "nativeResolutionM": 2,
+    "crs": "EPSG:2056",
+    "verticalDatum": "LN02",
+    "access": "stac",
+    "stacCollection": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissalti3d",
+    "assetSuffix": "_2_2056_5728.tif",
+    "license": "swisstopo free geodata (OGD) terms of use",
+    "licenseUrl": "https://www.swisstopo.admin.ch/en/terms-of-use-free-geodata-and-geoservices",
+    "attribution": "© swisstopo (swissALTI3D)",
+    "url": "https://www.swisstopo.admin.ch/en/height-model-swissalti3d"
+  },
+  "swissaltiregio": {
+    "name": "swissALTIRegio",
+    "producer": "Federal Office of Topography swisstopo",
+    "kind": "DTM",
+    "nativeResolutionM": 10,
+    "crs": "EPSG:2056",
+    "verticalDatum": "LN02 in Switzerland; original national height systems abroad (not transformed)",
+    "access": "cog",
+    "cogUrl": "https://data.geo.admin.ch/ch.swisstopo.swissaltiregio/swissaltiregio/swissaltiregio_2056_5728.tif",
+    "license": "swisstopo free geodata (OGD) terms of use, with the source reference prescribed for swissALTIRegio",
+    "licenseUrl": "https://www.swisstopo.admin.ch/en/height-model-swissaltiregio",
+    "attribution": "Bundesamt für Landestopografie swisstopo; Tarquini S., I. Isola, M. Favalli, A. Battistini, G. Dotta (2023). TINITALY, a digital elevation model of Italy with a 10 meters cell size (Version 1.1). Istituto Nazionale di Geofisica e Vulcanologia (INGV). https://doi.org/10.13127/tinitaly/1.1; DGM Österreich, geoland.at; DGM1, Bayerische Vermessungsverwaltung – www.geodaten.bayern.de; DGM1, Baden-Württemberg: LGL, www.lgl-bw.de, dl-de/by-2-0”; RGEAlti, Institut National de l’information géographique et forestière, données originales tétéchargées sur https://geoservices.ign.fr/rgealti#telechargement5m, mise à jour du juillet 2023",
+    "url": "https://www.swisstopo.admin.ch/en/height-model-swissaltiregio"
+  },
+  "copernicus-glo30": {
+    "name": "Copernicus DEM GLO-30",
+    "producer": "Airbus Defence and Space GmbH / DLR, provided under COPERNICUS by the European Union and ESA",
+    "kind": "DSM",
+    "nativeResolutionM": 30,
+    "crs": "EPSG:4326",
+    "verticalDatum": "EGM2008 (EPSG:3855)",
+    "access": "copernicus-s3",
+    "bucketUrl": "https://copernicus-dem-30m.s3.amazonaws.com/",
+    "license": "Licence for the use of the Copernicus WorldDEM-30",
+    "licenseUrl": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM/resources/license/License-COPDEM-30.pdf",
+    "attribution": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+    "disclaimer": "The organisations in charge of the Copernicus programme by law or by delegation do not incur any liability for any use of the Copernicus WorldDEM-30",
+    "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM"
+  }
+}
