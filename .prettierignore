@@ -1,0 +1,8 @@
+dist
+node_modules
+test-results
+playwright-report
+.dem-cache
+.asset-cache
+public/tiles
+package-lock.json

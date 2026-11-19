@@ -1,0 +1,40 @@
+:root {
+  color-scheme: dark;
+  --hud-bg: rgba(15, 18, 22, 0.72);
+  --hud-fg: #e8ecef;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  background: #1b1f24;
+  color: var(--hud-fg);
+  font:
+    13px/1.4 ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    monospace;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: none;
+}
+#view {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#hud {
+  position: fixed;
+  top: calc(env(safe-area-inset-top) + 8px);
+  left: calc(env(safe-area-inset-left) + 8px);
+  padding: 6px 10px;
+  background: var(--hud-bg);
+  border-radius: 6px;
+  white-space: pre;
+  pointer-events: none;
+}

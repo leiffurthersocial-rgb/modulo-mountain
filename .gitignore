@@ -1,0 +1,12 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+blob-report/
+.dem-cache/
+.asset-cache/
+.vercel/
+*.log
+.DS_Store
+.env
+.env.*
